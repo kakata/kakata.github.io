@@ -1,0 +1,1267 @@
+@charset "UTF-8";
+:root {
+  /* Default Variable */
+  --lsu-primaryColor: #ff5500;
+  --lsu-darkColor: #202428;
+  /* Marquee Animation */
+  --lsu-marqueeItemsWidth: -2930px;
+  --lsu-marqueeSpeed: 10000ms;
+  /* Navigaiton */
+  --lsu-navArrowColor: #333;
+  --lsu-navArrowColorHover: #fff;
+  --lsu-navBgColor: #fff;
+  --lsu-navBgColorHover: #ff5500;
+  --lsu-navBorderColor: #eaeaf1;
+  --lsu-navBorderColorHover: #ff5500;
+  /* Tooltip */
+  --lsu-tooltipFontSize: 14px;
+  --lsu-tooltipColor: #fff;
+  --lsu-tooltipBackColor: #202428;
+  /* Pagination */
+  --lsu-dotsColor: #00000020;
+  --dotsActiveColor: #ff5500;
+  /* Pagination */
+  --lsu-pagColor: #333;
+  --lsu-pagColorHover: #fff;
+  --lsu-pagBorderColor: #e4e4e4;
+  --lsu-pagBorderColorHover: #ff5500;
+  --lsu-pagBgColor: #fff;
+  --lsu-pagBgColorHover: #ff5500;
+  --lsu-pagActiveColor: #fff;
+  --lsu-pagActiveBorderColor: #ff5500;
+  --lsu-pagActiveBgColor: #ff5500;
+}
+
+/* Logo Showcase Grid */
+.wpwax-lsu-ultimate {
+  position: relative;
+  max-width: 100% !important;
+  padding: 0 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-1 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-2 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-3 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-4 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-5 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-6 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-1 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-2 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-3 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-4 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-5 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-6 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-1 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-2 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-3 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-4 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-5 .wpwax-lsu-item, .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-6 .wpwax-lsu-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  width: 100%;
+}
+
+/* wpwax Logo Showcase Responsive Grid */
+@media only screen and (max-width: 991px) {
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-1 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    width: 100%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-2 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    width: 50%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-3 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+            flex: 0 0 33.33%;
+    width: 33.33%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-4 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    width: 25%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-5 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    width: 20%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-md-6 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.6667%;
+            flex: 0 0 16.6667%;
+    width: 16.6667%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-1 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    width: 100%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-2 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    width: 50%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-3 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+            flex: 0 0 33.33%;
+    width: 33.33%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-4 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    width: 25%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-5 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    width: 20%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-sm-6 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.6667%;
+            flex: 0 0 16.6667%;
+    width: 16.6667%;
+  }
+}
+@media (min-width: 992px) {
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-lg-1 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    width: 100%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-lg-2 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    width: 50%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-lg-3 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+            flex: 0 0 33.33%;
+    width: 33.33%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-lg-4 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    width: 25%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-lg-5 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    width: 20%;
+  }
+  .wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-logo-col-lg-6 .wpwax-lsu-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.6667%;
+            flex: 0 0 16.6667%;
+    width: 16.6667%;
+  }
+}
+/* wpwax Logo Showcase Title */
+.wpwax-lsu-title {
+  font-size: 24px;
+  text-align: center;
+  margin: 68px 0 65px;
+  color: #202428;
+  text-align: center;
+}
+.wpwax-lsu-title .wpwax-lsu-serial {
+  color: #ff5500;
+}
+
+/* Logo Showcase Item hover */
+.wpwax-lsu-ultimate.wpwax-lsu-hover-active .wpwax-lsu-item img {
+  width: 100%;
+  max-width: 150px;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-hover-active .wpwax-lsu-item:hover img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/* wpWax logo Showcase Grid */
+.wpwax-lsu-ultimate.wpwax-lsu-grid .wpwax-lsu-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid .wpwax-lsu-item .wpwax-lsu-item-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 35px;
+  min-height: 130px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid .wpwax-lsu-item .wpwax-lsu-item-inner a {
+  display: block;
+  line-height: 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid .wpwax-lsu-item .wpwax-lsu-item-inner a:focus {
+  background-color: transparent;
+  outline: none;
+  -webkit-box-shadow: 0 0;
+          box-shadow: 0 0;
+}
+
+/* wpWax logo Showcase Grid 1 */
+.wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-grid-theme-1 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  margin: -1px 0px 0px -1px;
+  min-height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* wpWax logo Showcase Grid Theme 2 */
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-2 {
+  margin: -10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-2 .wpwax-lsu-item {
+  padding: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-2 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  min-height: 125px;
+}
+
+/* wpWax logo Showcase Grid Theme 3 */
+.wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-grid-theme-3 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 0;
+}
+
+/* wpWax logo Showcase Grid Theme 4 */
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-4 {
+  overflow: hidden;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-4 .wpwax-lsu-item.wpwax-lsu-item-bordered .wpwax-lsu-item-inner {
+  border-top: 0 none;
+  margin: -1px 0 0 -1px;
+  min-height: 210px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-4 .wpwax-lsu-content {
+  margin-bottom: -1px;
+}
+
+/* wpWax logo Showcase Grid Theme 5 */
+.wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-grid-theme-5 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 0 15px;
+  min-height: 200px;
+}
+
+/* wpWax logo Showcase Grid Theme 6 */
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-6 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  background-color: #eff0f2;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-6 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
+  margin: -1px 0px 0px -1px;
+  min-height: 200px;
+}
+
+/* wpWax logo Showcase Grid Theme 7 */
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-7 .wpwax-lsu-item:hover .wpwax-lsu-item-inner img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-7 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 0 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-7 .wpwax-lsu-item .wpwax-lsu-item-inner img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+/* wpWax logo Showcase Grid Theme 8 */
+.wpwax-lsu-ultimate.wpwax-lsu-grid.wpwax-lsu-grid-theme-8 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 0 15px;
+  min-height: 200px;
+}
+
+/* wpWax logo Showcase Grid Theme 9 */
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-9 .wpwax-lsu-content {
+  margin: -10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-9 .wpwax-lsu-item {
+  padding: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-9 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-9 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  position: relative;
+  min-height: 125px;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-9 .wpwax-lsu-item-flip-card .wpwax-lsu-item-flip-card__front,
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-9 .wpwax-lsu-item-flip-card .wpwax-lsu-item-flip-card__back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-9 .wpwax-lsu-item-flip-card .wpwax-lsu-item-flip-card__back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  color: #fff;
+  background-color: #ff5500;
+}
+
+/* wpWax logo Showcase Grid borderless */
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-borderless .wpwax-lsu-item .wpwax-lsu-item-inner {
+  border: 0 none;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-borderless .wpwax-lsu-item .wpwax-lsu-item-inner a {
+  padding: 0;
+}
+
+/* wpWax logo Showcase Grid bordered */
+.wpwax-lsu-ultimate .wpwax-lsu-item.wpwax-lsu-item-bordered .wpwax-lsu-item-inner {
+  border: 1px solid #eaeaf1;
+}
+.wpwax-lsu-ultimate .wpwax-lsu-item.wpwax-lsu-item-bordered .wpwax-lsu-item-inner a {
+  padding: 0;
+}
+
+/* wpWax logo Showcase Grid raised */
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-raised {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-raised .swiper-wrapper {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-grid-theme-raised .wpwax-lsu-item .wpwax-lsu-item-inner {
+  border: 0 none;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 10px rgba(84, 77, 124, 0.1);
+          box-shadow: 0 5px 10px rgba(84, 77, 124, 0.1);
+}
+
+/* wpWax logo Showcase Carousel */
+.wpwax-lsu-carousel {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+.wpwax-lsu-carousel.wpwax-lsu-carousel-nav-top {
+  padding: 70px 0 0 0;
+}
+.wpwax-lsu-carousel.wpwax-lsu-carousel-nav-bottom {
+  padding: 0 0 70px 0;
+}
+.wpwax-lsu-carousel.wpwax-lsu-carousel-nav-around {
+  padding: 0 30px;
+}
+
+/* wpWax logo Showcase Carousel Theme 1 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-1 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  min-height: 130px;
+  padding: 30px;
+}
+
+/* wpWax logo Showcase Carousel Theme 2 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-2 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  min-height: 130px;
+  padding: 0px;
+}
+
+/* wpWax logo Showcase Carousel Theme 3 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-3 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 25px;
+  width: 125px;
+  height: 125px;
+  min-height: auto;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+/* wpWax logo Showcase Carousel Theme 4 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 {
+  padding: 0 10px 10px 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4.wpwax-lsu-carousel-nav-top {
+  padding-top: 70px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4.wpwax-lsu-carousel-nav-bottom {
+  padding: 0 0 70px 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  -webkit-box-shadow: 0 0 10px rgba(84, 77, 124, 0.1);
+          box-shadow: 0 0 10px rgba(84, 77, 124, 0.1);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-4 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 120px;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
+  -webkit-box-shadow: 0 5px 10px rgba(84, 77, 124, 0.1);
+          box-shadow: 0 5px 10px rgba(84, 77, 124, 0.1);
+}
+
+/* wpWax logo Showcase Carousel Theme 5 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-5 {
+  padding: 0 10px 10px 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-5.wpwax-lsu-carousel-nav-top {
+  padding-top: 70px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-5.wpwax-lsu-carousel-nav-bottom {
+  padding: 0 0 70px 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-5 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-5 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-5 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-5 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-5 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  -webkit-box-shadow: 0 5px 10px rgba(84, 77, 124, 0.1);
+          box-shadow: 0 5px 10px rgba(84, 77, 124, 0.1);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-5 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 0px;
+  min-height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+}
+
+/* wpWax logo Showcase Carousel Theme 6 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-6 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 24px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-6 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 24px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-6 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 24px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-6 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 24px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-6 .wpwax-lsu-item:hover .wpwax-lsu-item-inner a img {
+  opacity: 1;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-6 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 0;
+  min-height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-6 .wpwax-lsu-item .wpwax-lsu-item-inner a img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+/* wpWax logo Showcase Carousel Theme 7 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-7 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  border-color: #ff5500;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-7 .wpwax-lsu-item:hover .wpwax-lsu-item-inner .wpwax-lsu-item-content {
+  border-top-color: #ff5500;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-7 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  min-height: 140px;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #eaeaf1;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-7 .wpwax-lsu-item .wpwax-lsu-item-inner a {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px;
+  min-height: 60px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-7 .wpwax-lsu-item .wpwax-lsu-item-inner .wpwax-lsu-item-content {
+  width: 100%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border-top: 1px solid #eaeaf1;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-7 .wpwax-lsu-item .wpwax-lsu-item-inner .wpwax-lsu-item-content p {
+  font-size: 14px;
+  color: #5a6671;
+  margin: 0;
+  padding: 10px 15px;
+  line-height: 1.45;
+}
+
+/* wpWax logo Showcase Carousel Theme 8 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-8 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  border: 1px solid #eaeaf1;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-8 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 20px;
+  min-height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid transparent;
+}
+
+/* wpWax logo Showcase Carousel Theme 9 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 {
+  padding: 0 15px 35px 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9.wpwax-lsu-carousel-nav-top {
+  padding-top: 70px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9.wpwax-lsu-carousel-nav-bottom {
+  padding: 0 0 70px 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 .wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 .wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 .wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 .wpwax-lsu-item {
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(134, 152, 164, 0.1);
+          box-shadow: 5px 5px 5px rgba(134, 152, 164, 0.1);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  -webkit-box-shadow: 0 5px 10px rgba(84, 77, 124, 0.1);
+          box-shadow: 0 5px 10px rgba(84, 77, 124, 0.1);
+  padding-bottom: 20px;
+  margin-bottom: -20px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 .wpwax-lsu-item:hover .wpwax-lsu-item-inner .wpwax-lsu-item-content {
+  opacity: 1;
+  visibility: visible;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 20px 20px 0 20px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 105px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-9 .wpwax-lsu-item .wpwax-lsu-item-inner .wpwax-lsu-item-content {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  color: #5a6671;
+  font-weight: 500;
+  margin-top: 25px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* wpWax logo Showcase Carousel Theme 10 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-10 {
+  padding: 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-10.wpwax-lsu-carousel-nav-top {
+  padding-top: 70px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-10.wpwax-lsu-carousel-nav-bottom {
+  padding: 0 0 70px 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-10 .wpwax-lsu-item {
+  background-color: #fff;
+  border-radius: 3px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-10 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  border-color: #ff5500;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-10 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 35px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* wpWax logo Showcase Theme 11 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 {
+  padding: 70px 10px 70px 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11.wpwax-lsu-grid .wpwax-lsu-item .wpwax-lsu-item-inner a.wpwax-lsu-item-flip-card__front {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-content {
+  margin: -10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-item {
+  padding: 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  position: relative;
+  min-height: 220px;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-item-flip-card .wpwax-lsu-item-flip-card__front,
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-item-flip-card .wpwax-lsu-item-flip-card__back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-item-flip-card .wpwax-lsu-item-flip-card__front {
+  padding: 35px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-item-flip-card .wpwax-lsu-item-flip-card__back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 5px 5px 5px rgba(134, 152, 164, 0.1);
+          box-shadow: 5px 5px 5px rgba(134, 152, 164, 0.1);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-item-flip-card .wpwax-lsu-item-flip-card__back .wpwax-lsu-item-flip-card__back--title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #202428;
+  margin-bottom: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel-theme-11 .wpwax-lsu-item-flip-card .wpwax-lsu-item-flip-card__back .wpwax-lsu-item-flip-card__back--text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: #5a6671;
+}
+
+/* wpWax logo Showcase Carousel Theme 12 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-12 {
+  padding: 0 15px 15px 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-12.wpwax-lsu-carousel-nav-top {
+  padding-top: 70px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-12.wpwax-lsu-carousel-nav-bottom {
+  padding: 0 0 70px 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-12 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-12 .wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-12 .wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-12 .wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-12 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  border-color: #ff5500;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-12 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 5px 5px rgba(134, 152, 164, 0.1);
+          box-shadow: 0 5px 5px rgba(134, 152, 164, 0.1);
+}
+
+/* wpWax logo Showcase Carousel Theme 13 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-13 {
+  padding: 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-13.wpwax-lsu-carousel-nav-top {
+  padding-top: 70px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-13.wpwax-lsu-carousel-nav-bottom {
+  padding: 0 0 70px 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-13 .wpwax-lsu-item {
+  background-color: #ffffff;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-13 .wpwax-lsu-item:hover .wpwax-lsu-item-inner a img {
+  opacity: 1;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-13 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 25px;
+  text-align: center;
+  min-height: 100px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-13 .wpwax-lsu-item .wpwax-lsu-item-inner a img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+/* wpWax logo Showcase Carousel Theme 14 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-14 {
+  padding: 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-14.wpwax-lsu-carousel-nav-top {
+  padding-top: 70px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-14.wpwax-lsu-carousel-nav-bottom {
+  padding: 0 0 70px 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-14 .wpwax-lsu-item {
+  background-color: #eff0f2;
+  border-radius: 3px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-14 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  padding: 20px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  min-height: 160px;
+}
+
+/* wpWax logo Showcase Carousel Theme 15 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 {
+  padding: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 10px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15.wpwax-lsu-carousel-nav-top {
+  padding-top: 70px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15.wpwax-lsu-carousel-nav-bottom {
+  padding: 0 0 70px 0;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 15px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-item:hover .wpwax-lsu-item-inner {
+  -webkit-box-shadow: 0 10px 10px 0 rgba(134, 152, 164, 0.1);
+          box-shadow: 0 10px 10px 0 rgba(134, 152, 164, 0.1);
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-15 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  min-height: 100px;
+  padding: 15px;
+  -webkit-box-shadow: 0 0 0 0 rgba(134, 152, 164, 0.1);
+          box-shadow: 0 0 0 0 rgba(134, 152, 164, 0.1);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* wpWax logo Showcase Carousel Theme 16 */
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-16 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  right: 24px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-16 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  left: 24px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-16 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  right: 24px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-16 .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  left: 24px;
+}
+.wpwax-lsu-ultimate.wpwax-lsu-carousel.wpwax-lsu-carousel-theme-16 .wpwax-lsu-item .wpwax-lsu-item-inner {
+  min-height: 130px;
+  padding: 0px;
+}
+
+/* wpWax logo Showcase Carousel navigation */
+.wpwax-lsu-carousel-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid var(--lsu-navBorderColor);
+  color: #9192a3;
+  background-color: var(--lsu-navBgColor);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn:hover {
+  background-color: var(--lsu-navBgColorHover);
+  border-color: var(--lsu-navBorderColorHover);
+}
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn:hover svg,
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn:hover i {
+  color: var(--lsu-navArrowColorHover);
+  fill: var(--lsu-navArrowColorHover);
+}
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn svg,
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn i {
+  color: var(--lsu-navArrowColor);
+  fill: var(--lsu-navArrowColor);
+}
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn.wpwax-lsu-carousel-nav__btn-round {
+  border-radius: 50%;
+}
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn.wpwax-lsu-carousel-nav__btn-prev {
+  margin-right: 12px;
+}
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn.wpwax-lsu-carousel-nav__btn-prev svg,
+.wpwax-lsu-carousel-nav .wpwax-lsu-carousel-nav__btn.wpwax-lsu-carousel-nav__btn-prev i {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 22;
+}
+.wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 22;
+}
+.wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 22;
+}
+.wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 22;
+}
+.wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--top-middle, .wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--bottom-middle {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0;
+  z-index: 22;
+}
+.wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--around .wpwax-lsu-carousel-nav__btn {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 22;
+}
+.wpwax-lsu-carousel-nav.wpwax-lsu-carousel-nav--around .wpwax-lsu-carousel-nav__btn.wpwax-lsu-carousel-nav__btn-next {
+  left: auto;
+  right: 0px;
+}
+
+/* wpWax logo Showcase Carousel Pagination */
+.wpwax-lsu-carousel-pagination {
+  text-align: center;
+}
+.wpwax-lsu-carousel-pagination.swiper-pagination-bullets {
+  margin-top: 32px;
+}
+.wpwax-lsu-carousel-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  background-color: var(--lsu-dotsColor);
+}
+.wpwax-lsu-carousel-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--dotsActiveColor);
+}
+
+/* Carousel default */
+.wpwax-lsu-carousel {
+  overflow: hidden;
+  /* Carousel marquee effect */
+}
+.wpwax-lsu-carousel.wpwax-lsu-carousel-marquee .swiper-wrapper {
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+.wpwax-lsu-carousel.wpwax-lsu-carousel-marquee:hover .swiper-wrapper {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.wpwax-lsu-carousel.wpwax-lsu-carousel-marquee .wpwax-lsu-carousel-nav {
+  display: none;
+}
+
+/* Tooltip Style */
+.tooltip .tooltip-arrow:before {
+  border-bottom-color: var(--lsu-tooltipBackColor) !important;
+}
+.tooltip .tooltip-inner {
+  font-size: var(--lsu-tooltipFontSize);
+  color: var(--lsu-tooltipColor);
+  background-color: var(--lsu-tooltipBackColor);
+}
+
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {
+  border-top-color: var(--lsu-tooltipBackColor) !important;
+}
+
+.bs-tooltip-left .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow::before {
+  border-left-color: var(--lsu-tooltipBackColor) !important;
+}
+
+.bs-tooltip-right .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before {
+  border-right-color: var(--lsu-tooltipBackColor) !important;
+}
+
+/* Pagination */
+.lsu-pagination .pagination {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  width: 100%;
+  max-width: 100%;
+}
+.lsu-pagination .pagination .nav-links {
+  margin: 25px -5px -5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.lsu-pagination .pagination .nav-links .page-numbers {
+  color: var(--lsu-pagColor) !important;
+  margin: 5px;
+  font-size: 14px;
+  text-decoration: none !important;
+  border: 1px solid var(--lsu-pagBorderColor) !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  background: var(--lsu-pagBgColor) !important;
+  width: 34px;
+  min-width: 34px;
+  height: 34px;
+  min-height: 34px;
+  border-radius: 3px;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.lsu-pagination .pagination .nav-links .page-numbers.current {
+  background: var(--lsu-pagActiveBgColor) !important;
+  border-color: var(--lsu-pagActiveBorderColor) !important;
+  color: var(--lsu-pagActiveColor) !important;
+}
+.lsu-pagination .pagination .nav-links .page-numbers:before, .lsu-pagination .pagination .nav-links .page-numbers:after {
+  content: none;
+}
+.lsu-pagination .pagination .nav-links .page-numbers.prev, .lsu-pagination .pagination .nav-links .page-numbers.next {
+  position: static;
+}
+.lsu-pagination .pagination .nav-links .page-numbers svg {
+  fill: var(--lsu-pagColor) !important;
+}
+.lsu-pagination .pagination .nav-links .page-numbers:hover {
+  background: var(--lsu-pagBgColorHover) !important;
+  border-color: var(--lsu-pagBorderColorHover) !important;
+  color: var(--lsu-pagColorHover) !important;
+}
+.lsu-pagination .pagination .nav-links .page-numbers:hover svg {
+  fill: var(--lsu-pagColorHover) !important;
+}
+.lsu-pagination.lsu-pagination--left .pagination .nav-links {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.lsu-pagination.lsu-pagination--right .pagination .nav-links {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* Load More Button Style */
+.lsu_load_more {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px 12px;
+  min-height: 34px;
+  font-family: dashicons;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #f42156;
+  border-color: #f42156;
+  color: #fff;
+}
+.lsu_load_more:after {
+  content: "";
+  position: relative;
+  top: 2px;
+  margin-left: 4px;
+}
+
+.wpwax-loadmore-btn {
+  text-align: center;
+  margin: 30px 0;
+}
